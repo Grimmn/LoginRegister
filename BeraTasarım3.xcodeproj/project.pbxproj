@@ -14,6 +14,9 @@
 		86596AFF28D87DD500B6DC27 /* BeraTasar_m3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86596AFE28D87DD500B6DC27 /* BeraTasar_m3Tests.swift */; };
 		86596B0928D87DD500B6DC27 /* BeraTasar_m3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86596B0828D87DD500B6DC27 /* BeraTasar_m3UITests.swift */; };
 		86596B0B28D87DD500B6DC27 /* BeraTasar_m3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86596B0A28D87DD500B6DC27 /* BeraTasar_m3UITestsLaunchTests.swift */; };
+		86596B1928D87ECB00B6DC27 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86596B1828D87ECB00B6DC27 /* home.swift */; };
+		86596B1B28D88A5000B6DC27 /* giris.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86596B1A28D88A5000B6DC27 /* giris.swift */; };
+		86596B1D28D88A8400B6DC27 /* uyeol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86596B1C28D88A8400B6DC27 /* uyeol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		86596B0428D87DD500B6DC27 /* BeraTasarım3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BeraTasarım3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86596B0828D87DD500B6DC27 /* BeraTasar_m3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeraTasar_m3UITests.swift; sourceTree = "<group>"; };
 		86596B0A28D87DD500B6DC27 /* BeraTasar_m3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeraTasar_m3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		86596B1828D87ECB00B6DC27 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		86596B1A28D88A5000B6DC27 /* giris.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giris.swift; sourceTree = "<group>"; };
+		86596B1C28D88A8400B6DC27 /* uyeol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uyeol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		86596AEC28D87DD400B6DC27 /* BeraTasarım3 */ = {
 			isa = PBXGroup;
 			children = (
+				86596B1728D87EA000B6DC27 /* View */,
 				86596AED28D87DD400B6DC27 /* BeraTasar_m3App.swift */,
 				86596AEF28D87DD400B6DC27 /* ContentView.swift */,
 				86596AF128D87DD400B6DC27 /* Assets.xcassets */,
@@ -125,6 +132,16 @@
 				86596B0A28D87DD500B6DC27 /* BeraTasar_m3UITestsLaunchTests.swift */,
 			);
 			path = "BeraTasarım3UITests";
+			sourceTree = "<group>";
+		};
+		86596B1728D87EA000B6DC27 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				86596B1828D87ECB00B6DC27 /* home.swift */,
+				86596B1A28D88A5000B6DC27 /* giris.swift */,
+				86596B1C28D88A8400B6DC27 /* uyeol.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86596B1B28D88A5000B6DC27 /* giris.swift in Sources */,
+				86596B1D28D88A8400B6DC27 /* uyeol.swift in Sources */,
+				86596B1928D87ECB00B6DC27 /* home.swift in Sources */,
 				86596AF028D87DD400B6DC27 /* ContentView.swift in Sources */,
 				86596AEE28D87DD400B6DC27 /* BeraTasar_m3App.swift in Sources */,
 			);
