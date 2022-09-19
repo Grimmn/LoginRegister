@@ -1,2 +1,2 @@
 # LoginRegister
-kodlar view klasörünün içindedir.
+kodlar için BeraTasarım3 -> view
